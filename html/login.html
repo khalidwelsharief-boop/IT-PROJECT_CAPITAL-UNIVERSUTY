@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>MakatbShop</title>
+  <link rel="stylesheet" href="/css/login.css">
+  <script src="/java/login.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script type="text/javascript" src="/java/login.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <!-- شمال الشريط-->
+  <div class="logo">
+    <a href="index.html"><img src="/imgs/DC_logo.png" alt="Logo"></a>
+    MakatbShop
+  </div>
+</header>
+<main>
+<div class="container">
+  <form class="login-box" onsubmit="return check()">
+    
+    <h2>Welcome Back</h2>
+    <p class="sub">Login to your account</p>
+
+    <input type="text" id="email" placeholder="Enter your email">
+    <input type="password" id="pass" placeholder="Enter your password">
+
+    <button type="submit">Login</button>
+
+    <p id="msg"></p>
+
+    <div class="extra">
+      <span>Forgot password?</span>
+      <span>Create account</span>
+    </div>
+
+  </form>
+</div>
+
+<script src="/java/login.js"></script>
+</main>
+</body>
+</html>
